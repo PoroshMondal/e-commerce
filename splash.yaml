@@ -1,0 +1,21 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/t-store-splash-logo-white.png
+  image_dark: assets/logos/t-store-splash-logo-black.png
+
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logos/t-store-splash-logo-white.png
+    image_dark: assets/logos/t-store-splash-logo-black.png
+
+  web: false
+
+# This command need to create the splash screen
+# path is splash.yaml file path. as it is in root folder then we can only specify the name
+# flutter pub run flutter_native_splash:create --path=splash.yaml
+
+# to remove splash screen
+# flutter pub run flutter_native_splash:remove
