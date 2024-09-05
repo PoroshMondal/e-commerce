@@ -2,13 +2,13 @@
 
 A simple Flutter project to study the Flutter project structure and architecture.
 
-## Project Configuration
+### Project Configuration
 - Analysis of the folder structure for large and small projects.
 - Create the project folder structure 
 - Theme setup for the project (Light & Dark theme)
 - Design the essential Utilities, Helper Functions, Constants, etc.
 
-## App Design
+### App Design
 Design the separate application section and make the widgets or small designs to reuse.
 - Login, Signup section design
 - eCommerce App UI design
