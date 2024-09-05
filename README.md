@@ -1,17 +1,25 @@
 # e_commerce
 
-A simple Flutter project to study the flutter project structure and architecture.
+A simple Flutter project to study the Flutter project structure and architecture.
 
-## Getting Started
+## Project Configuration
+- Analysis of the folder structure for large and small projects.
+- Create the project folder structure 
+- Theme setup for the project (Light & Dark theme)
+- Design the essential Utilities, Helper Functions, Constants, etc.
 
-Following the tutorial of Coding with T
-- [https://www.youtube.com/playlist?list=PL5jb9EteFAOAusKTSuJ5eRl1BapQmMDT6]
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## App Design
+Design the separate application section and make the widgets or small designs to reuse.
+- Login, Signup section design
+- eCommerce App UI design
+    - Dashboard screen
+    - Shop
+    - Categories
+    - Sub-categories
+    - Search
+    - Settings
+    - User profiles
+ 
+ToDo: 
+ - Firebase Authentication
+ - Connect the app with Firebase backend etc.
