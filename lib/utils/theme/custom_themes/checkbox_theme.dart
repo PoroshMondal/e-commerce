@@ -5,27 +5,27 @@ class TCheckboxTheme {
 
   static CheckboxThemeData lightCheckboxTheme = CheckboxThemeData(
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
-    checkColor: MaterialStateProperty.resolveWith((states){
-      if(states.contains(MaterialState.selected)){
+    checkColor: WidgetStateProperty.resolveWith((states){
+      if(states.contains(WidgetState.selected)){
         return Colors.white;
       }else{
         return Colors.black;
       }
     }),
-    fillColor: MaterialStateProperty.resolveWith((states) => states.contains(MaterialState.selected)?Colors.blue:Colors.transparent),
+    fillColor: WidgetStateProperty.resolveWith((states) => states.contains(WidgetState.selected)?Colors.blue:Colors.transparent),
   );
 
   static CheckboxThemeData darkCheckboxTheme = CheckboxThemeData(
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
-    checkColor: MaterialStateProperty.resolveWith((states){
-      if(states.contains(MaterialState.selected)){
+    checkColor: WidgetStateProperty.resolveWith((states){
+      if(states.contains(WidgetState.selected)){
         return Colors.white;
       }else{
         return Colors.black;
       }
     }),
-    fillColor: MaterialStateProperty.resolveWith((states) {
-      if(states.contains(MaterialState.selected)){
+    fillColor: WidgetStateProperty.resolveWith((states) {
+      if(states.contains(WidgetState.selected)){
         return Colors.blue;
       }else{
         return Colors.transparent;

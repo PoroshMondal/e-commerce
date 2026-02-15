@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_rx/get_rx.dart';
-import 'package:get/get_state_manager/src/rx_flutter/rx_obx_widget.dart';
-import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:t_store/features/authentication/views/screens/signup/signup.dart';
 import 'package:t_store/utils/constants/colors.dart';
@@ -51,7 +48,7 @@ class NavigationController extends GetxController{
 
   final screens = [
     const HomeScreen(),
-    SignupScreen(),
+    const SignupScreen(),
     Container(color: Colors.orange),
     Container(color: Colors.blue,)];
 }
