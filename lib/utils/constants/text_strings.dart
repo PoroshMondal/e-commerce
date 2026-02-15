@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 class TText {
   TText._();
@@ -22,7 +21,7 @@ class TText {
 
   // Home
   static const String homeAppbarTitle = "Good day for shopping";
-  static const String homeAppbarSubTitle = "Taimoor X";
+  static const String homeAppbarSubTitle = "Jhon X";
 
   // -- Authentication Forms
   static const String firstName = "First Name";

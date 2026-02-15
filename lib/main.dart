@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:t_store/utils/local_storage/storage_utility.dart';
 import 'app.dart';
 
 // main() is the entry part of flutter application
